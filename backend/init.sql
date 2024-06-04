@@ -1,0 +1,7 @@
+CREATE TABLE contas (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(255) NOT NULL,
+  valor VARCHAR(255) NOT NULL,
+  vencimento VARCHAR(255) NOT NULL,
+  status VARCHAR(255) NOT NULL
+)
